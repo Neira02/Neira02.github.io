@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Bootstrap</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row fixed-top  bg-danger">
+            <div class="col-4 p-3 text-light text-uppercase">
+                <p class="lead "><strong>CV : ADRIAN NEIRA</strong></p>
+            </div>
+            <div class="col-6 p-3 text-light d-grid gap-2 d-md-flex d-flex justify-content-end">
+                <button type="button" class="btn btn-outline-light"><a href="#Acerca_de_mi">Inicio</a></button>
+                <button type="button" class="btn btn-outline-light"><a href="#Intereses_Personales">Intereses
+                        Personales</a></button>
+                <button type="button" class="btn btn-outline-light position-relative"><a
+                        href="#Habilidades">Habilidades</a>
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                        8+
+                        <span class="visually-hidden">unread messages</span>
+                    </span>
+                </button>
+                <button type="button" class="btn btn-outline-light "><a href="#Contacto">Contacto</a></button>
+            </div>
+        </div>
+        <br><br>
+        <div class="row border-1">
+            <div class="col-5 p-5 border-1 fixed-left " style="background-color:#30c991">
+                <div class=" p-5 container-align-center text-center text-light">
+                    <img src="MiCara.png" class="rounded-circle img-fluid" alt="Imagen de perfil" width="440"
+                        height="440">
+                    <p><strong>Adrian Neira Garcia</strong></p>
+                </div>
+            </div>
+
+
+            <div class="text-dark col-7" id=Acerca_de_mi>
+
+                <div class="text-dark" id=Intereses_Personales>
+                    <div class=" text-dark  text-center text-uppercase">
+                        <p class="lead "><strong> Intereses Personales</strong></p>
+                    </div>
+                    <p><br><strong> Intereses Personales</strong><br><br>"Soy Adrian especialista en Programacion. En el último equipo en el que desarrollé mi trabajo fui capaz de aumentar el rendimiento y la eficiencia.
+                        "Cuento con gran capacidad de auto aprendizaje, esto me permite alcanzar mejores índices de productividad para la empresa, en relación a la gestión de equipos de trabajo, al no necesitar de un compañero que tenga que indicarme constantemente cuáles son mis tareas".
+                        "Tengo experiencia con trabajo en equipo y cuento con empatía para la resolución de problemas. Considero que una empresa es como una gran familia, e intento que el clima profesional sea el mejor posible en trato y mejoras para cada uno de nosotros".
+                        "Tengo un alto sentido del compromiso y la responsabilidad"
+                    </p>
+
+                </div>
+                <br><br>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Informacion Personal
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>Informacion Personal</strong> <br> Adrian Neira Garcia <br> 20 Años
+                                <br> Desarrollo aplicaciones multiplataforma
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Datos
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>
+                                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                                        data-bs-target=".multi-collapse" aria-expanded="false"
+                                        aria-controls="multiCollapseExample1 multiCollapseExample2">Mostrar
+                                        Datos</button>
+                                </p>
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="multiCollapseExample1">
+                                            <div class="card card-body">
+                                                Mi telefono es: +34 694438995
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="multiCollapseExample2">
+                                            <div class="card card-body">
+                                                Mi Gmail es: adrianneira@alumnos.colegiosma.com
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Estudios
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>Estudios</strong><br> Primaria , Eso : Colegio Amoros
+                                <br>Grado Medio : Colegio Nuestra señora de los Apostoles
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br><br>
+            </div>
+        </div>
+
+
+        <div class="row" id=Habilidades>
+            <div class="col-12 p-5 text-dark" style="background-color: #131816;">
+                <h2 class="text-center text text-light">HABILIDADES</h2>
+
+
+                <div class=" text-light">
+                    <br>
+                    <P>XML <img src="XML.png" class=" img-fluid" alt="XML" width="30"
+                        height="30"> </P>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-success" role="progressbar" style="width:90%">
+                            90%
+                        </div>
+                    </div>
+                    <br>
+                    <P>HTML <img src="HTML.png" class=" img-fluid" alt="HTML" width="30"
+                        height="30"> </P></P>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-success" role="progressbar" style="width:95%">
+                            95%
+                        </div>
+                    </div>
+                    <br>
+                    <P>CSS <img src="CSS.png" class=" img-fluid" alt="CSS" width="30"
+                        height="30"> </P></P>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-success" role="progressbar" style="width:85%">
+                            85%
+                        </div>
+                    </div>
+                    <br>
+                    <P>DTD <img src="DTD.png" class=" img-fluid" alt="DTD" width="30"
+                        height="30"> </P></P>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-success" role="progressbar" style="width:100%">
+                            100%
+                        </div>
+                    </div>
+                    <br>
+                    <P>Java <img src="Java.png" class=" img-fluid" alt="Java" width="30"
+                        height="30"> </P></P>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-success" role="progressbar" style="width:90%">
+                            90%
+                        </div>
+                    </div>
+                    <br>
+                    <P>JavaScript<img src="JavaScript.png" class=" img-fluid" alt="JavaScript" width="20"
+                        height="20"> </P></P>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-success" role="progressbar" style="width:75%">
+                            75%
+                        </div>
+                    </div>
+                    <br>
+                    <P>MySQL <img src="Mysql.jpg" class=" img-fluid" alt="MySQL" width="30"
+                        height="30"> </P></P>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-success" role="progressbar" style="width:80%">
+                            80%
+                        </div>
+                    </div>
+                    <br>
+                </div>
+
+            </div>
+        </div>
+
+        <section class="mb-4" id=Contacto>
+            <h2 class="h1-responsive font-weight-bold text-center my-4">Contactame</h2>
+            <p class="text-center w-responsive mx-auto mb-5">¿Tienes alguna cuestion? Porfavor no dude en contactar
+                conmigo directamente.</p>
+            <div class="row ">
+                <div class="col-md-9 mb-md-0 mb-5">
+                    <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="name" name="name" class="form-control">
+                                    <label for="name" class="">Nombre</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="email" name="email" class="form-control">
+                                    <label for="email" class="">Email</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="subject" name="subject" class="form-control">
+                                    <label for="subject" class="">Asunto</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="md-form">
+                                    <textarea type="text" id="message" name="message" rows="2"
+                                        class="form-control md-textarea"></textarea>
+                                    <label for="message">Mensaje</label>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="text-center text-md-left">
+                        <a class="btn btn-primary"
+                            onclick="document.getElementById('contact-form').submit();">Enviar</a>
+                        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                            <strong>Enviar: </strong> El mensaje sera enviado a la direccion de correo
+                            adrian.neira@alumnos.colegiosma.com.
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                    </div>
+                    <div class="status"></div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <ul class="list-unstyled mb-0">
+                        <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                            <p>Juaquin Turina, 38, 28044, ESP</p>
+                        </li>
+                        <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                            <p>+ 34 694 43 89 95</p>
+                        </li>
+                        <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                            <p>adrian.neira@alumnos.colegiosma.com</p>
+                        </li>
+                    </ul>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle shadow-lg " type="button"
+                            id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                            Redes Sociales
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                            <li><a class="dropdown-item active" href="https://twitter.com/">Twitter</a></li>
+                            <li><a class="dropdown-item" href="https://www.instagram.com/">Instagram</a></li>
+                            <li><a class="dropdown-item" href="https://github.com/">GitHub</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+</body>
+
+</html>
